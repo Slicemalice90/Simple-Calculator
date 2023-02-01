@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div>
+
+        <h2 class="top-name">SIMPLE CALCULATOR</h2>
+
+        <input id="input1" type="number" oninput="getDataFromInput1()">
+        <input id="input2" type="number" oninput="getDataFromInput2()">
+
+        <div class="container">
+            <button class="added" onclick="add()">Add</button>
+            <button class="subtracted" onclick="subtract()">Subtract</button>
+            <button class="divided" onclick="divide()">Divide</button>
+            <button class="multiplied" onclick="multiply()">Multiply</button>
+        </div>
+
+        <br>
+        <h3>Solution</h3>
+        <span id="sum-el"></span>
+
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html> 

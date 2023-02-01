@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px 0;
+  margin: 0;
+  text-align: center;
+  height:100vh;
+}
+
+span {
+  border-bottom: 2px solid black;
+  padding: 4px;
+}
+
+.top-name {
+  color:rgb(255, 255, 255);
+  font-size:70px;
+}
+
+#input1 {
+  width:400px;
+  height:100px;
+  font-size:70px;
+  margin-right:30px;
+}
+
+#input2 {
+  width:400px;
+  height:100px;
+  font-size:70px;
+  margin-left:30px;
+}
+
+h3 {
+  color:white;
+  font-size:50px;
+}
+
+#sum-el {
+  font-size:70px;
+  color:white;
+}
+
+.added {
+  margin: 20px 15px;
+  width:200px;
+  height:100px;
+  background: rgb(0, 122, 229);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius:50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size:30px;
+}
+
+.subtracted {
+  margin: 20px 15px;
+  width:200px;
+  height:100px;
+  background: rgb(246, 31, 2);
+  box-shadow: 2px ;
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius:50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size:30px;
+}
+
+.divided {
+  margin: 20px 15px;
+  width:200px;
+  height:100px;
+  background: rgb(219, 219, 219);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius:50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size:30px;
+}
+
+.multiplied {
+  margin: 20px 15px;
+  width:200px;
+  height:100px;
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius:50%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px 8px;
+  font-size:30px;
+}
+
+.container {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color:rgb(80, 80, 80);
+  padding-top:50px;
+  padding-bottom:50px;
+  height:100%;
+}
+
+
